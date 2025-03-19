@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color:#ffff;
+        }
+        /*Dark mode theme*/
+        body.dark-theme{
+            background-color: #333;
+            color: #ffff;
+        }
+
+          /*Dark mode styles*/
+          body.dark-mode{
+            background-color: #333;
+            color:white;
+        }
+    
+          .dark-theme.header{
+            background-color: #333;
+            color: #ffff;
+        }
+
+        .dark-theme section{
+            background-color: #333;
+        }
+
+        .dark-them button{
+            background-color: #333;
+            color:white;
+        }
+
+        .dark-theme button:hover{
+            background: color #777;
+        }
+
+        h1.dark-mode, h2.dark-mode{
+            color: #333;
+        }
+
+        section h2.dark-mode{
+            background-color: #222;
+            color: #121212;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: auto;
+            background:beige;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .downbtn{
+            display: inline-block;
+            background:cadetblue;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<!----this is the personal infrmation-->
+<body>
+    <nav class="resume-container">
+        <h1>SIZEKA ELINA MAJIKELA</h1>
+        <img src="SIZEKA MAJIKELA CV/Images/Pro.jpg" class="profile">
+        <p class="contact-info">
+            📍 Location: GEORGE, WESTERN CAPE <br>
+            📧 Email: Nozinga1801@gmail.com <br>
+            📞 Phone: +27 73166 4054 <br>
+        </p>
+        <button id="theme-switch">Dark mode</button>
+
+        <header class="section">
+            <h2>Summary</h2>
+            <p>Hello, i am a pessionate web developer who love crafting beautiful and functional websites. With a keen eye for details and a drive for excellence.</p>
+        </header>
+
+        <nav class="section">
+            <h2>Work Experience</h2>
+            <h3>Job Title - Ackermans</h3>
+            <p>Duration: Nov 2022- Dec 2022</p>
+            <p>Duties- Opening accounts and helping with capfin loan...</p>
+        </nav>
+
+        <nav class="section">
+            <h2>Education</h2>
+            <h3>Institution - South Cape TVET College</h3>
+            <h4>Qualification - Tourism Management</h4>
+            <p>2022</p>
+
+            <h3>Institution - Fort Hare University</h3>
+            <h4>Qualification - Advanced Certificate of IT training</h4>
+            <p>2018</p>
+
+            <h3>Institution - South Cape TVET College</h3>
+            <h4>Qualification - NQF L5 Software Testing</h4>
+            <p>2024-2025</p>
+        </nav>
+
+        <nav class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>JAVASCRIPT</li>
+                <li>CSS</li>
+                <li>Csharp</li>
+            </ul>
+
+            <nav class="section">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Online Bookshop App</li>
+                    <li>Test Cases</li>
+                    <li>Automated Login Test</li>
+                    <li>Mobile App Navigation</li>
+                </ul>
+
+            <!--====Contact Section====-->
+            <section id="contact">
+                <h2>Contact Me</h2>
+
+                <form>
+                    <input type="text" placeholder="your Name" required>
+
+                    <input type="email" placeholder="your Email" required>
+
+                    <textarea placeholder="your Message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+            </section>
+
+
+
+            <a href="SIZEKA MAJIKELA CV/Images/Resume.pdf" download class="downbtn">Download CV</a>
+        </nav>
+    </nav>
+    <script src="/SIZEKA MAJIKELA CV/script.js"></script>
+<footer>
+    Copyright @2025 S.E MAJIKELA All rights reserved
+</footer>
+</body>
+</html>
